@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(0, 10%, 66%);
+}
+
+header {
+    line-height: 30px;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 0px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+._top_section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1% 10%;
+}
+
+._top_title {
+    font-weight: 200;
+}
+
+._second_title {
+    font-weight: 600;
+}
+
+._title_descp {
+    word-wrap: break-word;
+    width: 50%;
+    align-self: center;
+}
+
+/* Cards section */
+
+._cards_board {
+    padding: 5% 10%;
+}
+
+._card_1 {
+    padding: 5% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 6px solid hsl(180, 62%, 55%);
+    width: auto;
+    margin-bottom: 7%;
+}
+
+._card_2 {
+    padding: 5% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 6px solid hsl(0, 78%, 62%);
+    width: auto;
+    margin-bottom: 7%;
+}
+
+._card_3 {
+    padding: 5% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 6px solid hsl(34, 97%, 64%);
+    width: auto;
+    margin-bottom: 7%;
+}
+
+._card_4 {
+    padding: 5% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 6px solid hsl(212, 86%, 64%);
+    width: auto;
+}
+
+._card_1:hover,
+._card_2:hover,
+._card_3:hover,
+._card_4:hover {
+    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+._c_1_img,
+._c_2_img,
+._c_3_img,
+._c_4_img {
+    text-align: right;
+}
+
+._card_1,
+._card_3,
+._card_2,
+._card_4 {
+    width: auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+    ._title_descp {
+        word-wrap: break-word;
+        width: 50%;
+        align-self: center;
+    }
+
+    ._cards_board {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1387px) {
+
+    body {
+        padding: 5% 2% 1%;
+        text-align: center;
+    }
+
+    ._title_descp {
+        word-wrap: break-word;
+        width: 70%;
+        align-self: center;
+    }
+
+    ._cards_board {
+        display: flex;
+        flex-direction: column;
+    }
+}
